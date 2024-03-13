@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: rgb(41, 40, 40);
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(41, 40, 40);
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: rgb(190, 190, 190);
+        }
+
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td><strong>0000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quaerat veritatis provident ullam deserunt expedita dolor natus dolorum sit, ipsam voluptatum nemo labore commodi, quasi dicta. Mollitia soluta quo libero?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis neque sed vitae, provident id quidem magnam autem voluptates exercitationem ipsa incidunt, delectus totam voluptatum deleniti dicta perferendis enim nam fugit.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores nulla dolorum culpa deleniti sit illo vero exercitationem odit voluptate ratione, natus non quos tenetur. Numquam harum earum autem libero incidunt.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quasi tempora soluta ipsa, mollitia obcaecati distinctio in reprehenderit a non ab eos eveniet asperiores perferendis quisquam sed tempore porro laborum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates pariatur facilis et maiores voluptatibus, exercitationem qui enim quidem quas ullam repellendus repudiandae dolorum accusantium vel consectetur tenetur, fuga provident? Culpa!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quod expedita dicta tempore eveniet, voluptatibus, ipsa, fugiat facilis laboriosam accusantium aut? Velit quo nesciunt neque inventore similique, nulla magni eum!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima tenetur culpa aut aliquid quo corporis quos nostrum quasi optio autem, modi repellendus. Ut architecto, ullam voluptatum aut est pariatur aperiam.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quod temporibus minima eveniet, neque natus sunt cum facilis sed, totam dolorem. Ullam veritatis sed sequi deleniti assumenda maxime dolorem asperiores!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est porro voluptatem esse illo sit sed. Quibusdam eos iusto quam pariatur atque blanditiis, consequatur at, dicta aliquam dignissimos, dolor fuga libero.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, accusantium eius, beatae autem temporibus mollitia cum maxime tempora at pariatur soluta! Odit architecto laborum nemo deleniti totam, at commodi ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquid nesciunt, reiciendis corporis, nam doloremque cupiditate, corrupti nobis officia debitis praesentium necessitatibus. Totam reiciendis similique doloribus dolores libero sit molestias?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, quisquam autem. Eveniet corrupti dignissimos exercitationem officia rerum cum, tenetur pariatur deleniti quidem porro repudiandae eos praesentium expedita earum. Alias, quisquam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusamus aperiam est officia ratione exercitationem non, laborum nemo nam vero sapiente vitae nobis perspiciatis nisi sint numquam quos cupiditate voluptate.
+        
+    </p>
+</body>
+</html>
